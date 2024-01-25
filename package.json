@@ -13,6 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.7.14",
+    "graphql": "^16.6.0"
+  },
   "devDependencies": {
     "concurrently": "^5.1.0"
   }
