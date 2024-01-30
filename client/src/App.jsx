@@ -10,7 +10,6 @@ import { Outlet } from 'react-router-dom';
 
 import NavBar from './components/Navbar';
 
-
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -39,9 +38,9 @@ function App() {
   return (
     <ApolloProvider client={client}>
         <NavBar />
-        <div>
+        <main>
           <Outlet />
-        </div>
+        </main>
     </ApolloProvider>
   );
 }
